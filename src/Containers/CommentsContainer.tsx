@@ -1,7 +1,7 @@
 import React, { Component, Fragment, Dispatch } from 'react';
 import { connect } from 'react-redux';
 
-import CommentsList from '../Components/CommentsList';
+import CommentsList from '../components/CommentsList';
 import {
   addComment,
   thumbsUp,
@@ -10,7 +10,7 @@ import {
   editComment
 } from '../actions/commentsActions';
 
-import CommentAdd from '../Components/CommentAdd';
+import CommentAdd from '../components/CommentAdd';
 
 import { Comment } from '../types/comment';
 import { AppState } from '../reducers/index';

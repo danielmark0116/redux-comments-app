@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Comments from './Containers/CommentsContainer';
+import Comments from './containers/CommentsContainer';
 
 export default class App extends React.Component<{}, {}> {
   render() {
